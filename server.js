@@ -4,7 +4,8 @@ const express = require("express");
 const { Helmet } = require("react-helmet");
 require("dotenv").config();
 
-const PORT = process.env.PORT;
+const PORT =3000;
+//const PORT = process.env.PORT;
 const isProd = process.env.NODE_ENV === "production";
 const isTest = process.env.NODE_ENV === "test" || !!process.env.VITE_TEST_BUILD;
 
